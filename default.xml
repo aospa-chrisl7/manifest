@@ -42,7 +42,8 @@
            fetch="https://github.com" />
 
   <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com"
+           revision="uvite" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com" />

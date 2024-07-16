@@ -40,9 +40,9 @@
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
+  <project path="device/qcom/sepolicy_vndr" name="AOSPA-OnePlus12/android_device_qcom_sepolicy_vndr" remote="github-ssh" />
   <remove-project name="device/qcom/vendor-common" />
-  <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
+  <project path="device/qcom/vendor-common" name="AOSPA-OnePlus12/android_device_qcom_vendor-common" remote="github-ssh" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
@@ -231,19 +231,19 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="aospa" />
 
   <!-- Vendor (QCOM Vendor) -->
-  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_wfd" remote="aospa" />
+  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="AOSPA-OnePlus12/android_vendor_qcom_opensource_commonsys-intf_wfd" remote="github-ssh" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" revision="uvite-legacy" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
-  <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" />
+  <project path="vendor/qcom/opensource/power" name="AOSPA-OnePlus12/android_vendor_qcom-opensource_power" remote="github-ssh" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
-  <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
+  <project path="vendor/qcom/opensource/vibrator" name="AOSPA-OnePlus12/android_vendor_qcom-opensource_vibrator" remote="github-ssh" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
-  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
+  <project path="vendor/qcom/opensource/usb" name="AOSPA-OnePlus12/android_vendor_qcom-opensource_usb" remote="github-ssh" />
   <remove-project name="platform/hardware/qcom/thermal" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="github-ssh" />
 
 </manifest>

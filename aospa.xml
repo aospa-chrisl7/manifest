@@ -34,13 +34,14 @@
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
+  <project path="device/qcom/common" name="aospa-chrisl7/android_device_qcom_common" remote="github-ssh" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA-OnePlus12/android_device_qcom_sepolicy_vndr" remote="github-ssh" />
+  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="github-ssh" />
+  <project path="device/qcom/sepolicy_vndr-legacy" name="aospa-chrisl7/android_device_qcom_sepolicy_vndr" remote="github-ssh" revision="uvite-legacy" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA-OnePlus12/android_device_qcom_vendor-common" remote="github-ssh" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
@@ -101,7 +102,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="AOSPA/android_hardware_libhardware_legacy" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
+  <project path="hardware/qcom/wlan" name="aospa-chrisl7/android_hardware_qcom_wlan" remote="github-ssh" />
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="AOSPA/android_hardware_st_nfc" remote="aospa" />
 
@@ -242,7 +243,7 @@
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="AOSPA-OnePlus12/android_vendor_qcom-opensource_vibrator" remote="github-ssh" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
-  <project path="vendor/qcom/opensource/usb" name="AOSPA-OnePlus12/android_vendor_qcom-opensource_usb" remote="github-ssh" />
+  <project path="vendor/qcom/opensource/usb" name="aospa-chrisl7/android_vendor_qcom-opensource_usb" remote="github-ssh" />
   <remove-project name="platform/hardware/qcom/thermal" />
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="github-ssh" />
 
